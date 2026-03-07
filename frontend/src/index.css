@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+body{
+  margin:0;
+  font-family: "Segoe UI", sans-serif;
+  background:#f4f6f9;
+}
+
+.dashboard-container{
+  padding:30px;
+}
+
+.dashboard-title{
+  margin-bottom:25px;
+}
+
+/* stat cards */
+
+.stats-container{
+  display:flex;
+  gap:20px;
+  margin-bottom:40px;
+}
+
+.stat-card{
+  padding:20px;
+  border-radius:10px;
+  color:white;
+  width:120px;
+  box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.stat-card h3{
+  margin:0;
+  font-size:18px;
+}
+
+.stat-card p{
+  font-size:22px;
+  font-weight:bold;
+}
+
+.total{
+  background:#3498db;
+}
+
+.applied{
+  background:#f39c12;
+}
+
+.accepted{
+  background:#2ecc71;
+}
+
+.rejected{
+  background:#e74c3c;
+}
+
+/* chart */
+
+.chart-container{
+  width:400px;
+  background:white;
+  padding:20px;
+  border-radius:10px;
+  box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+.sidebar{
+  width:220px;
+  height:100vh;
+  background:#2c3e50;
+  color:white;
+  padding:20px;
+}
+
+.sidebar a{
+  display:block;
+  padding:12px;
+  color:white;
+  text-decoration:none;
+  border-radius:6px;
+}
+
+.sidebar a:hover{
+  background:#34495e;
+}

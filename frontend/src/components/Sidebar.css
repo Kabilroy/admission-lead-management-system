@@ -1,0 +1,33 @@
+.sidebar{
+  width:230px;
+  height:100vh;
+  background:#1e293b;
+  color:white;
+  position:fixed;
+  left:0;
+  top:0;
+  padding:25px 15px;
+}
+
+.sidebar-title{
+  margin-bottom:30px;
+  font-size:22px;
+}
+
+.sidebar-menu{
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+}
+
+.sidebar-item{
+  padding:12px 15px;
+  text-decoration:none;
+  color:white;
+  border-radius:6px;
+  transition:0.3s;
+}
+
+.sidebar-item:hover{
+  background:#334155;
+}
